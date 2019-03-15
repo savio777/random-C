@@ -1,0 +1,4 @@
+cara, alem de vc incluir a math.h, vc tem q passar a opção para o compilador ligar ela ao objeto:
+gcc -o prgrama programa.c -Wall -lm
+-Wall: dah todos warnings possiveis...
+-lm: liga e biblioteca math
